@@ -1,7 +1,7 @@
-# PSY:3170 – Fantasy Football: Predictive Analytics and Empiricism (Fall 2025)
+# PSY:3170 – Fantasy Football: Predictive Analytics and Empiricism (Fall 2028)
 
-This is the code that creates the Wiki for PSY:3170 – Fantasy Football: Predictive Analytics and Empiricism (Fall 2025). 
-The Class Wiki is located here: **https://isaactpetersen.github.io/psy-3170-2025-fall/**
+This is the code that creates the Wiki for PSY:3170 – Fantasy Football: Predictive Analytics and Empiricism (Fall 2028). 
+The Class Wiki is located here: **https://isaactpetersen.github.io/psy-3170-2028-fall/**
 
 To render the syllabus as PDF, run the following command in your terminal (may have to make sure you have updated your TinyTex installation first: i.e., run `tinytex::install_tinytex()` in `R`):
 

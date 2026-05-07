@@ -2,20 +2,20 @@ project:
   type: website
 
 website:
-  title: "Class Wiki for Fantasy Football: Predictive Analytics and Empiricism (Fall 2025)"
-  repo-url: https://github.com/isaactpetersen/psy-3170-2025-fall
+  title: "Class Wiki for Fantasy Football: Predictive Analytics and Empiricism (Fall 2028)"
+  repo-url: https://github.com/isaactpetersen/psy-3170-2028-fall
   repo-actions: [edit, source, issue]
   google-analytics: G-935TQTG95N
   navbar:
-    title: "Class Wiki for Fantasy Football: Predictive Analytics and Empiricism (Fall 2025)"
+    title: "Class Wiki for Fantasy Football: Predictive Analytics and Empiricism (Fall 2028)"
     search: true
     tools:
       - icon: github
         menu:
           - text: "Source Code"
-            href: https://github.com/isaactpetersen/psy-3170-2025-fall
+            href: https://github.com/isaactpetersen/psy-3170-2028-fall
           - text: "Report a Bug"
-            href: https://github.com/isaactpetersen/psy-3170-2025-fall/issues/new
+            href: https://github.com/isaactpetersen/psy-3170-2028-fall/issues/new
     left:
       - href: index.qmd
         text: Home

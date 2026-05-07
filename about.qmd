@@ -3,7 +3,7 @@ title: "About This Website"
 ---
 
 This website was generated with [Quarto](https://quarto.org).
-The codebase that was used to generate the Class Wiki is located [here](https://github.com/isaactpetersen/psy-3170-2025-fall).
+The codebase that was used to generate the Class Wiki is located [here](https://github.com/isaactpetersen/psy-3170-2028-fall).
 
 # License
 
