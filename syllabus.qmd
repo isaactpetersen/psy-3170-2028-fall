@@ -1,0 +1,711 @@
+---
+title: "Course Syllabus"
+engine: knitr
+format: 
+  html: default
+  pdf: default
+format-links: true
+---
+
+Last Updated: `r format(Sys.Date(), "%m/%d/%Y")`
+
+# Course Title {#sec-title}
+
+PSY:3170 – Fantasy Football: Predictive Analytics and Empiricism (Fall 2025)
+
+# Course Meeting Time and Place {#sec-lectureTime}
+
+Tuesday and Thursday 11:00 a.m. – 12:15 p.m., 65 Van Allen (VAN)
+
+# Course Website {#sec-website}
+
+<https://icon.uiowa.edu>
+
+To access the course site, log into [Iowa Courses Online (ICON)](https://icon.uiowa.edu) using your Hawk ID and password.
+
+# Course Home {#sec-home}
+
+The University of Iowa\
+The College of Liberal Arts and Sciences\
+Department of Psychological and Brain Sciences
+
+The College of Liberal Arts and Sciences (CLAS) is the home of this course, and CLAS governs the add and drop deadlines, academic misconduct policies, and other policies and procedures.
+Other UI colleges may have different policies.
+
+# Instructor Contact Information {#sec-instructor}
+
+[Professor Petersen](https://psychology.uiowa.edu/people/isaac-petersen)\
+Office: 175 Psychological and Brain Sciences Building (PBSB)\
+E-mail: [isaac-t-petersen@uiowa.edu](mailto:isaac-t-petersen@uiowa.edu)\
+Office Phone: 467-1014\
+Student drop-in hours: Monday 4–5 & Wednesday 3–5\
+Note: I'm here to help you learn and succeed.
+Please come to my office hours to ask questions about course material, assignments, exams, or professional development (career-related issues), for instance.
+I welcome you to discuss any concerns you might have about the class.
+I am also available to meet with you by appointment, although I would appreciate your making every effort to see me during office hours.
+The best way to reach me outside of class is by email.
+
+# Departmental Resources {#sec-deptResources}
+
+Department of Psychological and Brain Sciences: <https://psychology.uiowa.edu>\
+Department of Psychological and Brain Sciences Main Office: G60 Psychological and Brain Sciences Building (335-2406)\
+Coordinator of Undergraduate Studies: Professor Windschitl ([paul-windschitl@uiowa.edu](mailto:paul-windschitl@uiowa.edu); 335-3681)\
+Academic Coordinator: Janeil Page-Jamison ([janeil-page@uiowa.edu](mailto:janeil-page@uiowa.edu); 384-3657)\
+Departmental Executive Officer (DEO)/Department Chair: Professor Blumberg ([mark-blumberg@uiowa.edu](mailto:mark-blumberg@uiowa.edu); 335-2424)
+
+# Prerequisites {#sec-prereqs}
+
+The Department of Psychological and Brain Sciences has a hierarchical course structure that requires students to complete certain prerequisite courses before taking upper-level courses.
+This course requires successful completion (C- or higher) of any of the following statistics courses (or AP Statistics from high school):
+PSY 2811, PSQF 1020, PSQF 4143, STAT 1010, STAT 1015, STAT 1020, STAT 1030, STAT 3510, STAT 4143.
+The department will check student records to ensure completion of course prerequisites.
+
+# Fulfilling Your Academic Requirements {#sec-academicRequirements}
+
+Psychology Students: This course will satisfy either an upper-level elective or a second Cognate (second Cognates are required for Bachelor of Science [B.S.] students).
+If you are using this course as a second Cognate for the B.S. requirements, please see your academic advisor.
+
+# Description of Course {#sec-description}
+
+How can we use information to make predictions about uncertain events?
+This course is about empiricism (basing theories on observed data) and judgment, prediction, and decision making in the context of uncertainty.
+But this is no ordinary course...
+
+Rather than memorizing these empirical approaches in abstraction, students will employ these methods in the active, immersive, hands-on learning laboratory of Fantasy Football.
+In this way, the course will weave together two contiguous threads: an introductory overview of data analysis techniques, and a captivating application of these techniques through a semester-long experience in Fantasy Football with their classmates.[^adapted]
+
+The class involves reading primary source material, applying statistical programming (using `R` software), conducting data analysis, and composing written work on a weekly basis.
+Students will be introduced to modern analytical techniques used to make informed predictions, test theories, and draw conclusions from a given dataset.
+
+The course uses fantasy football as a lens and application through which to learn about statistics and empiricism.
+The class does not assume that students know anything about football or fantasy football.
+The class is welcome to all, assuming the student meets the prerequisites and that they are interested in learning about empiricism (basing theories on observed data), statistics, and judgment, prediction, and decision making in the context of uncertainty.
+No need to worry about how well your fantasy team does; your grade does NOT depend on your team's performance (however, the league winner receives [extra credit](#sec-extraCredit)).
+
+Take this class if:
+
+- you want to learn more advanced skills in 1) empiricism, 2) statistics, 3) programming (using `R` software), and 4) judgment, prediction, and decision making in the context of uncertainty;
+- you are interested in learning statistics through the lens of a fun sports domain (fantasy football); or
+- you are interested in applying psychological and statistical concepts to fantasy football, to gain a strong understanding of critical thinking and decision making in sports.
+
+*Do not take this class if*:
+
+- you are reluctant to examine fantasy football topics in a scientific manner;
+- you do not want to write public blog articles as part of the class; or
+- you do not want to learn statistics and programming, and do not want to persist through inevitable challenges along the way.
+
+[^adapted]:
+    Elements of this syllabus and course were borrowed and adapted (with permission) from a similar course by Benjamin Motz.
+
+## What is Fantasy Football? And Why Focus on Fantasy Football? {#sec-fantasyFootball}
+
+Fantasy football is an online game where participants assemble (i.e., "draft") imaginary teams composed of real-life National Football League (NFL) players.
+In the game of fantasy football, participants compete against others, accumulating "fantasy" points based on players' actual statistical performances in games (and the goal is to outscore one's opponent each week to win matches and ultimately claim victory in the league).
+Fantasy football relies heavily on prediction—trying to predict which players will perform best and selecting them accordingly.
+In this way, fantasy football provides a plethora of decision making opportunities in the face of uncertainty, and a wealth of data for analyzing these decisions.
+However, unlike many other applied domains in psychology, fantasy football (1) allows a person to see the accuracy of their predictions on a timely basis and (2) provides a safe environment for friendly competition.
+Thus, it provides a unique domain to evaluate—and improve—the accuracy of various prediction models.
+
+# Course Goals {#sec-goals}
+
+The course has three overarching goals; to help students:
+
+1. Appreciate the value of statistics for answering questions you find interesting
+1. Think critically and be a critical consumer of information in society
+1. Get excited about learning stats!
+
+# Learning Outcomes {#sec-learningOutcomes}
+
+By the end of the course, successful students will be able to:
+
+1. Think critically and empirically about human behavior and performance
+1. Make sense of big data
+1. Use, evaluate, and interpret statistical analyses
+1. Communicate data-driven insights
+
+## How Students Will Achieve the Learning Outcomes {#sec-learningOutcomesHowAchieve}
+
+Students will achieve the learning outcomes through the following specific outcomes:
+
+### 1. Think critically and empirically about human behavior and performance {#sec-learningOutcomesThinkCritically}
+
+- Apply empirical inference and articulate its advantages over speculative supposition.
+- Formulate research questions, hypotheses, and predictions.
+- Provide well-reasoned guidance for decision-making under conditions of uncertainty.
+- Describe common flaws in human judgment and decision making, including heuristics and cognitive biases, and explain how they can be mitigated analytically.
+- Critically evaluate causal claims by generating plausible alternative explanations.
+- Apply core concepts in causal inference, including confounding, causal pathways, and counterfactuals.
+- Compare the strengths and limitations of human and machine approaches to prediction.
+
+### 2. Make sense of big data {#sec-learningOutcomesBigData}
+
+- Apply foundational skills in statistical programming using `R` to combine, manipulate, clean, and summarize large datasets.
+
+### 3. Use, evaluate, and interpret statistical analyses {#sec-learningOutcomesAnalyses}
+
+- Conduct data analyses using `R`, including appropriate application of statistical models.
+- Critically evaluate the strengths and limitations of statistical models and methods used for predicting uncertain events.
+- Apply analytical techniques to predict outcomes and uncover latent causes in observed data.
+- Interpret results from statistical analyses and evaluate the accuracy of predictions.
+- Engage in iterative problem-solving, refining analytical strategies based on results and feedback.
+- Use practical analytical skills that can be applied in future research and job settings.
+
+### 4. Communicate data-driven insights {#sec-learningOutcomesCommunication}
+
+- Communicate statistical findings in writing for a public audience.
+- Identify characteristics of effective data visualizations.
+- Create data visualizations.
+
+# Textbook {#sec-textbook}
+
+The cost of textbooks has become so high that I do not feel comfortable requiring students to purchase a textbook.
+Thus, I created a textbook for this course.
+The textbook for this course is available <u>for free</u> online:
+<https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook>
+
+Note: There is a section of the book that invites readers to donate to support its development.
+**IMPORTANT**: This donation option is <u>*NOT*</u> for you.
+The book is publicly available and the donation option is <u>intended for non-UI people</u> who use the book.
+Per the [UI Policy Manual](https://opsmanual.uiowa.edu), faculty are prohibited from a) [receiving gifts from their students](https://opsmanual.uiowa.edu/community-policies/prohibition-giving-and-receiving-gifts) and b) [profiting from recommending or requiring the purchase of course materials from their students](https://opsmanual.uiowa.edu/human-resources/compensation/supplemental-activities-and-extra-compensation).
+As described [here](https://opsmanual.uiowa.edu/human-resources/compensation/supplemental-activities-and-extra-compensation), "Faculty members who would otherwise receive royalties or other remuneration from the purchase of books or materials which they recommend or require in courses they teach should either refund the money to the students or make other arrangements to avoid profiting from their students' use of the materials (such as transferring it to the University or one of its units, or to the University of Iowa Center for Advancement)."
+Bottom line: <u>**please do NOT donate or give other gifts—they are not allowed!**</u>
+
+# Required Materials {#sec-requiredMaterials}
+
+For the class, you will be required to have access to a computer that allows you to install and run software (including `R`, `git`, and `GitHub Desktop`).
+A laptop is preferable, so you can bring it to class and work through examples in class.
+
+# Academic Honesty and Misconduct {#sec-academicHonesty}
+
+All students in CLAS courses are expected to abide by the [college's standards of academic honesty](https://clas.uiowa.edu/students/handbook/academic-fraud-honor-code).
+Academic misconduct must be reported by instructors to CLAS according to [these procedures](https://policy.clas.uiowa.edu/clas-policies-and-procedures/undergraduate-education/academic-misconduct-undergraduate).
+
+Please note that collaboration with other classmates is not permitted on <u>quizzes, writing assignments</u> (except when collaboratively [troubleshooting `R` errors](#sec-troubleshooting))<u>, or during exams</u>.
+However, I do encourage you to collaborate with classmates to learn `R`, statistics, and programming, to troubleshoot an error you run into, and to *prepare* for exams (e.g., informal study groups).
+In addition, you are expected to follow the course's policy on the use of artificial intelligence (AI), which is outlined below.
+
+# On the Use of Artificial Intelligence {#sec-ai}
+
+Artificial intelligence (AI) is rapidly reshaping how we interact with technology.
+When used responsibly, AI can support your learning—but only if you remain the primary thinker and writer.
+
+### Reasons to Use AI {#sec-aiReasonsToUse}
+
+AI can be a valuable tool for exploring ideas, understanding data analysis, and debugging code.
+It is highly likely that your future career will involve working with this technology.
+
+### Reasons Not to Use AI {#sec-aiReasonsNotToUse}
+
+Developing your own writing, analytical, and critical thinking skills is a key learning outcome of this course.
+Like building muscles at the gym, these skills require effort—you don't get stronger if someone else (AI) lifts the weights for you.
+Mastering foundational skills in writing, analytical, and critical thinking will not only help you succeed academically but also make you a more effective and discerning AI user.
+By developing skills in writing, analysis, and critical thinking, you will be better equipped in the future to evaluate AI-generated responses, recognize when and how they are inaccurate, and improve upon them.
+Ultimately, strong independent skills in writing, analysis, and critical thinking will set you apart in a competitive workplace.
+
+### Course Policy on AI {#sec-aiPolicy}
+
+AI presents thorny issues for education: AI often generates incorrect content and risks breaching academic integrity.
+This section governs our use of AI in this course[^AI].
+
+<u>Use of AI is *NOT* permitted on quizzes or exams.</u>
+
+Use of AI in this course is permitted for the [writing assignments](#sec-blogArticles) under four conditions:
+
+1. You complete your first draft of the writing [independently](#sec-aiCompleteDraft)
+1. You [disclose](#sec-aiDisclosure) how you use AI
+1. You begin the conversation with the [required prompt](#sec-aiPrompt)
+1. You submit the [full transcript](#sec-aiTranscript) of your AI interaction along with the assignment
+
+<u>Failure to meet any of these conditions will result in a zero on the assignment and may be grounds for an academic misconduct case.</u>
+
+You may choose any AI model, but you must be able to <u>archive and submit the full conversation</u>.
+In ChatGPT, for example, you can generate a shareable link to the transcript.
+
+These four conditions are detailed below.
+I reserve the right to revoke this privilege at any time if I suspect it is being abused.
+
+[^AI]:
+    This policy on AI was borrowed and adapted (with permission) from a policy by Isaac Mehlhaff.
+
+#### Complete Your First Draft of Writing Independently {#sec-aiCompleteDraft}
+
+You may use AI to help you troubleshoot code, clarify concepts, and improve your writing.
+However, before you engage with any AI tools to improve your writing, you must write a complete first draft of your assignment on your own.
+This draft should represent your best independent effort to meet the assignment's goals, including organizing your ideas, supporting your claims with evidence, and expressing your thoughts clearly.
+Then, you may use AI—under the [required conditions](#sec-aiPolicy)—to help you refine your writing.
+
+#### AI Disclosure {#sec-aiDisclosure}
+
+For each writing assignment, you must clearly disclose whether and how you used AI tools.
+Your disclosure must include one or more of the following options:
+
+- `Not Used`: Did not use AI in any way for this assignment
+- `Mentoring`: Used AI to ask questions or clarify concepts
+- `Code`: Used AI to generate or review code snippets
+- `Editing`: Used AI to critique or improve writing
+
+List all that apply.
+For instance, if you used AI to understand a concept and generate example code, your disclosure should include both `Mentoring` and `Code`.
+
+#### Required Initial Prompt to Use {#sec-aiPrompt}
+
+Each time you use AI, <u>the first message you send to begin the conversation must be the prompt below</u>.
+This prompt ensures that AI use supports your learning rather than replacing your thinking.
+Do <u>**NOT**</u> add, delete, or edit any language in this prompt—just copy and paste it:
+
+> You are an encouraging, positive tutor who helps students work through problems relating to statistics, statistical computing, research methods, and writing.
+> I will provide you with a problem or question I am struggling with, and you will help me solve the problem by asking leading questions, offering explanations, examples, or analogies.
+> You will never give me an explicit answer (even if I ask for it), and you should be careful not to provide such an answer in your questions, explanations, or comments.
+> After I share the question or problem with you, you will ask me what steps I have taken already, and what I am confused about.
+> Wait for my response.
+> Only ask one question at a time.
+> Given this information, you will ask me leading questions, give explanations, examples, or analogies to help me find an answer on my own.
+> You should guide me in an open-ended way.
+> Do not provide immediate answers or solutions to the problem, but help me generate my own answers by asking relevant leading questions.
+> Ask me to explain my thinking.
+> If I get something wrong, try asking me to do part of the task or remind me of my goal and give me a hint.
+> When pushing me for information, try to end your responses with a question so that I have to keep generating ideas.
+> If you see that I am moving in the right direction, tell me I am on the right track, encourage me to continue working on my own, and end the conversation.
+> Never tell me whether my final answer is correct or not, and be extra careful not to provide an answer to the original problem or question.
+> Always keep an encouraging, positive tone.
+
+#### AI Transcript Submission {#sec-aiTranscript}
+
+You must submit <u>the full transcripts</u> of your conversations with AI.
+If you had multiple conversations, submit transcripts for all conversations you used for that assignment.
+
+The preferred method is to include a <u>shareable link</u> at the top of your assignment.
+Most platforms (e.g., ChatGPT, Gemini) provide this functionality.
+Make sure the link works before submitting.
+
+# Course Requirements and Policies {#sec-requirements}
+
+## Lecture {#sec-lecture}
+
+We will meet two times weekly for lectures, at the time and location described [above](#sec-lectureTime).
+My powerpoint presentations for the lectures will be posted on [ICON](https://icon.uiowa.edu) no later than 20 minutes before the lecture; they are made available after the quizzes are due so you use the readings rather than the slides to complete the quiz.
+<u>Please note:</u> powerpoint presentations are an outline of my points. 
+<u>It is your responsibility to take notes during class.</u>
+If you have questions about the lecture notes or need clarification of any of the points, please ask in class or meet with Professor Petersen during office hours.
+If you miss a lecture, get and review notes with a peer and watch the lecture recording.
+Then, come to office hours if you have specific questions.
+
+### Lecture Recordings {#sec-recordings}
+
+My intention is to record lectures so that you may review them.
+Recorded lectures will be posted on the "UICapture" tab in [ICON](https://icon.uiowa.edu).
+However, <u>please do not count on recordings being available</u>, in case I accidentally forget to initiate the recording or there is a technical malfunction.
+
+## Attendance and Participation {#sec-attendanceParticipation}
+
+Attendance at lectures is required and will be factored into final grades (see grading section [below](#sec-courseGrades)).
+There are 29 lectures during the semester (excluding the examinations); in addition, there are two required course surveys (one pre-course survey, one end-of-course survey).
+You will receive one point for completion of each course survey and attendance at each lecture, for up to 29 points (i.e., you will not receive extra credit for attending/completing all 31 lectures/surveys).
+<u>Thus, you will not be penalized for missing up to 2 lectures.
+However, you will be responsible for learning any material missed for quizzes and exams, and I strongly encourage you to attend all lectures.
+Poor lecture attendance is likely to affect the quality of students' work and success in the course.</u>
+
+Students who miss <u>more than 2 lectures</u> due to participation in University activities must give the instructor a statement <u>before the absence</u> signed by a responsible official that specifies the dates and times the student will miss class.
+Authorized activities include participation in athletic teams, the marching band or pep band, debate teams, and other recognized University groups, as well as participation in University field trips, service with the National Guard, and jury duty.
+Absences due to illnesses or emergencies (that go over 2 lectures) must be documented with the University of Iowa [Absence Explanation Form](https://clas.uiowa.edu/faculty/student-attendance-and-absences) and sent to Professor Petersen within 48 hours of the absence.
+Per university policy, if a student will be absent <u>5 or more consecutive days and the absence is due to illness or other emergency</u>, please contact the Registrar Service Center at (319) 384-4300 or registrar@uiowa.edu.
+
+## Blog Articles (Writing Assignments) {#sec-blogArticles}
+
+As part of the class, you will post blog articles (see the [course schedule](#sec-outline) for deadlines).
+<u>The blog articles are public</u>; <u>do not take this course if you do not feel comfortable posting blog articles with your full name in a public forum</u>.
+The blog articles are intended to give you practice integrating skills to advance the [learning objectives](#sec-objectives) of a) thinking critically and empirically about human behavior and performance, b) making sense of big data, c) using, evaluating, and interpreting statistical analyses, and d) communicating data-driven insights.
+There will be a penalty of 20% for all blog articles turned in late.
+Your two lowest scores will be dropped (excluding the last blog article, which involves in the integration of at least two analysis approaches that were covered in class).
+A blog article is not considered "submitted" until you (a) post the blog article so that it is live and publicly available, AND (b) submit the assignment on [ICON](https://icon.uiowa.edu) with a PDF of the article and a URL link to your blog article.
+All blog articles should be submitted to [ICON](https://icon.uiowa.edu) by 11:59 p.m. on the due date.
+Make sure to follow the rubric for the blog article and to incorporate information on the target topic for that week's blog article.
+
+You are encouraged to submit your blog article <u>well before</u> the deadline.
+<u>You can expect to run into technical issues</u> (e.g., errors when running your code, issues getting the blog post to compile, etc.).
+Thus, you should give yourself plenty of time to [troubleshoot](#sec-troubleshooting) (see below) so that you can submit your blog article on time.
+
+### Troubleshooting {#sec-troubleshooting}
+
+Sometimes code you write does not work.
+That is okay; it happens to everyone.
+Learning how to troubleshoot code is an important part of programming.
+If you run into issues related to `R`, `GitHub`, `GitHub Pages`, or your code, here are a few pointers on how to get things working (as adapted from Luke Tierney):
+
+- If you receive an error message, read what the message says.
+Sometimes reading the error message is all it takes to figure out what the issue is and how to fix it.
+- Read the whole error message: sometimes the most important part is at the beginning.
+- If the message does not make sense to you, perform a Google search for the error/issue: often someone else has asked about the same issue and received a useful answer.
+- Simplify your code.
+    - Look carefully at intermediate results.
+    - Replace complicated data with something smaller and simpler.
+    - In the process, you may find your mistake.
+- Finding your bug usually involves double checking all the things you are sure you did right until you find the one you did not.
+
+If you are unable to resolve things on your own, you may need to ask for help, in which case I encourage you to try one (or more) of the following:
+
+- Perform a Google search for the error/issue
+- Check the [Troubleshooting section](https://isaactpetersen.github.io/QuartoBlogFantasyFootball/posts/quarto-instructions/#sec-troubleshooting) of the course's Quarto Instructions
+- Ask a peer
+- Post on [forums dedicated to `R`](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/getting-started.html#sec-gettingHelpR)
+- Ask AI (as long as you follow the [AI policy](#sec-ai))
+- Come to office hours
+
+I am quite busy, and I appreciate your making every effort to solve the issue on your own or using one of the aforementioned ways before emailing me.
+I do not often respond to emails during evenings or weekends, and I cannot be expected to solve last-minute issues that you could have solved earlier.
+
+## Readings & Quizzes {#sec-readingQuizzes}
+
+Readings and other materials (e.g., videos) will be posted on [ICON](https://icon.uiowa.edu).
+You are expected to do the readings (and watch any required videos and complete any required learning activities) before class.
+You will have an online quiz on the readings/materials to complete in [ICON](https://icon.uiowa.edu), on your own, <u>before</u> each lecture.
+The quizzes will cover the required readings, videos, and learning activities.
+The quizzes are meant to help you come to class prepared to contribute so you are best-positioned to learn and to help others learn.
+The quizzes are not timed (you can spend as much time as you need on each quiz up until the deadline).
+The deadline for each quiz is 30 minutes before class starts.
+Late responses and multiple submissions will not be accepted.
+Your lowest quiz score will be dropped.
+We will not accept excused absences for quizzes because (a) you have a week to complete the quiz (and can submit it at any point during that week), and (b) we drop your lowest quiz score.
+Each quiz will be weighted the same in the final grade.
+Quiz answers will be viewable after class.
+
+## Workload {#sec-workload}
+
+This is a 3 semester hour course.
+Students should therefore expect to spend [6 additional hours per week](https://clas.uiowa.edu/faculty/student-workload-guidelines) (outside of class) reading the articles, doing the writing assignments, reviewing material from lecture, and preparing for quizzes and exams.
+
+## Examinations {#sec-exams}
+
+There will be 2 exams; one mid-term exam and one non-cumulative final exam.
+Exam 1 will be administered during class time.
+The date, time, and location of the final exam will be announced by the 5th week of class by the College of Liberal Arts and Sciences; the duration of the final exam will be 120 minutes.
+Each exam will emphasize information presented for the half of the class that precedes it.
+However, some integration of information across sections will be required for questions on the second exam.
+The exams will include multiple-choice questions.
+Exam questions can come from <u>any of the following sources: lectures or required readings, videos, or learning activities</u>.
+For suggested study tips for this class, meet with Professor Petersen during office hours.
+
+Past experience has shown that in order to do well in this class, you should read the required material, participate actively in class, and go over your notes <u>each week</u>.
+There is too much material being covered in this class to try to study only by frantic preparation immediately before exams.
+Note that lecture will <u>not</u> cover all relevant material for the course; you will be expected to know the <u>required</u> readings/videos/learning activities for exams.
+
+### Missing Exams {#sec-missingExams}
+
+[University regulations require that students be allowed to make up examinations](https://opsmanual.uiowa.edu/students/absences-class) that have been missed due to illness, religious holy days, military service obligations (including service-related medical appointments), or other unavoidable circumstances or University-sponsored activities.
+Students with UI-authorized activities must discuss their absences with the instructor as soon as possible.
+Religious obligations must be communicated within the first three weeks of classes.
+See below for the documentation necessary for an absence to be excused and to be eligible to take a make-up exam.
+
+Students are allowed to make up exams that have been missed due to illness, mandatory religious observations, official University activities, or other unavoidable circumstances.
+Note: the format of the make-up exam may differ from the original exam.
+If you know that you must be away at the time of an exam for one of these reasons, Professor Petersen must be contacted in advance whenever possible to schedule a make-up exam.
+In order to take a make-up exam, you must provide acceptable documentation to be eligible to take it: including documentation for any report of illness; any other circumstances must be documented by the University of Iowa [Absence Explanation Form](https://clas.uiowa.edu/sites/clas.uiowa.edu/files/2024-05/ABSENCE%20EXPLANATION%20FORM.pdf) (located in ICON under "Student Tools") and must be approved by Professor Petersen.
+<u>In sum, to be eligible for a make-up exam, Professor Petersen must be contacted before the examination whenever possible, and you must send acceptable form of documentation to Professor Petersen</u>.
+
+## Class Fantasy Football League {#sec-fantasyFootballLeague}
+
+As part of the class, we will have a fantasy football league.
+The league will be composed of 10 teams, with approximately 2 students per team.
+That is, you will (likely) be paired with another student in the class to co-manage a team.
+The league will be hosted on [NFL.com](https://fantasy.nfl.com) and will follow [default NFL.com scoring settings](https://support.nfl.com/hc/en-us/articles/4989179237404-Scoring).
+The league will be a head-to-head league, meaning that each week, your team will face one other team, and whichever team scores more points wins that week.
+There are no course-related points based on your team's performance (i.e., you will NOT be punished for having a bad team); however, there is an [extra credit opportunity](#sec-extraCredit) for winning the league.
+
+The draft will be held during class time.
+The draft will be a "snake" draft, meaning that the order of picks will reverse each round.
+The draft order will be randomly determined.
+
+In conjunction with your co-manager, you will make decisions regarding your team's name, draft picks, waiver wire pickups/drops, trades, and starting lineups.
+Regardless of your expertise or experience with fantasy football, you and your co-manager are each 50% co-owners of the team.
+That is, <u>you are expected to make all team-related decisions with your co-manager collaboratively</u>, not unilaterally.
+
+As the commissioner of the league, I reserve the right to block any trades that that would compromise the integrity of the league.
+Trades will be allowed as long as each team is acting in their team's best interests; that is, "lopsided" trades will be allowed as long as both teams are acting in good faith to improve their own team.
+Trades will not be allowed if they involve collusion, that is, collaboration to cheat or deceive others.
+Examples of collusion include:
+
+- trading players for the purpose of improving the other team's standing in the league (and not your own)
+- trading players who are not on bye week, just so an opponent can specifically beat another opponent and then trading those players back immediately
+- trades that involve outside-of-the-game exchange of goods or services
+- trades that involve a handshake agreement of in-game goods or services
+- trades that cannot be completed in one trade
+
+# Grading {#sec-grading}
+
+Final grades will be assigned at the end of semester on the basis of your total percentage of points earned on exams, quizzes, attendance, and writing assignments, as detailed below.
+Grades will be assigned on an absolute scale (criterion-referenced grading); course grades will not be curved.
+Please note: As a matter of fairness to all students, I assign grades based on performance and do not negotiate grades.
+Final grades will be assigned based on the following ranges:
+
+| Grade | Percent |
+|:------|:--------|
+| A+    | 97–100% | 
+| A     | 93–96   |
+| A−    | 90–92   |
+| B+    | 87–89   |
+| B     | 83–86   |
+| B−    | 80–82   |
+| C+    | 75–79   |
+| C     | 70–74   |
+| C−    | 65–69   |
+| D+    | 60–64   |
+| D     | 55–59   |
+| D−    | 50–54   |
+| F     | < 50%   |
+
+I round up from .5 when determining final grades.
+For example, a course percent of 79.50 would receive a B−, whereas a course percent of 79.49 would receive a C+.
+
+# Course Grades {#sec-courseGrades}
+
+Final course grades will be assessed based on your performance in the activities below.
+The relative contribution of each component to your final grade is as follows:
+
+ - 25%	Examination #1
+ - 25%	Examination #2 (administered only during the class's Final Exam time slot)
+ - 10% 	Attendance/Participation
+ - 10% 	Reading Quizzes
+ - 30%  Writing Assignments
+
+## Extra Credit {#sec-extraCredit}
+
+Here are the extra credit opportunities for this course:
+
+- 0.5 points: identify a new issue in the [course textbook](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook) that needs to be fixed, or make a <u>specific</u> suggestion for improving the [textbook](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook) and its usefulness to you or other students
+- 0.5 points: implement a fix/suggestion for the issue you identified in the [course textbook](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook)
+- 0.5 points: submit an end-of-semester video reflection
+- 1 point: win the [class fantasy football league](#sec-fantasyFootballLeague)
+
+The extra credit must be completed by the last day of class.
+Details about each option are provided below.
+No additional extra-credit opportunities are available for this course.
+
+### Improvements to the Textbook {#sec-extraCreditTextbook}
+
+You can earn 0.5 points of extra credit by either:
+
+1. Identifying a new (i.e., not previously known) issue in the [course textbook](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook) that needs to be fixed, or
+1. Making a <u>specific</u> suggestion for improving the [textbook](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook) and its usefulness to you or other students.
+For instance, to identify an issue that needs to be addressed, you could identify a typo, misspelling, grammatical error, broken link to another section of the book, or (gasp), a mistake/error.
+Note that placeholders (e.g., "[insert here]") are already known and do not count as new issues.
+
+To receive the extra credit:
+
+1. [Create a new issue](https://github.com/isaactpetersen/Fantasy-Football-Analytics-Textbook/issues) in the [textbook's GitHub repository](https://github.com/isaactpetersen/Fantasy-Football-Analytics-Textbook), and
+1. Email me after doing so.
+
+You can earn an **additional 0.5 points** extra credit (for 1 point extra in total) by implementing the fixes/suggestions you specified.
+To receive the extra credit for implementing the fix/suggestion:
+
+1. [Submit a pull request](https://github.com/isaactpetersen/Fantasy-Football-Analytics-Textbook/pulls) with your changes, and
+1. Email me after doing so.
+
+See [these instructions](https://devpsylab.github.io/DataAnalysis/git.html#pull-request) for help creating a pull request.
+
+**Important**: If you plan to implement a fix or suggestion, I strongly encourage you to discuss it with me first to ensure it qualifies.
+I reserve the right to determine whether the "fix", suggestion, or implementation warrants extra credit!
+
+### End-of-Semester Video Reflection {#sec-extraCreditVideoReflection}
+
+You can earn 0.5 points extra credit by submitting a short (2–3 minute) video reflecting on your experience in the class.
+The video should include:
+
+- A description of the class, what you learned, and how it will benefit you
+- Your favorite part of the class
+- Why (from your perspective) it is valuable to learn statistics
+- What advice you would give to students who take the class in the future
+
+Submit the video in the designated assignment on [ICON](https://icon.uiowa.edu).
+
+### Win the Class Fantasy Football League {#sec-extraCreditWinLeague}
+
+The winner(s) of the [class fantasy football league](#sec-fantasyFootballLeague)—based on either total points or win/loss record at the end of the class (i.e., Week 14 of the NFL season)—will receive 1 point of extra credit.
+
+# Tentative Course Outline (exam dates fixed) {#sec-outline}
+
+This is a *tentative* course outline.
+Changes will be discussed in class.
+There are 15 weeks in the semester, and class meets twice per week (30 sections).
+We will have one exam during the semester and one final exam during finals week.
+
+| **Section**      | **Day** | **Date** | **Content**                                                                  | Reading                             | Assignment                            |
+|:-----------------|:--------|:---------|:-----------------------------------------------------------------------------|:------------------------------------|:--------------------------------------|
+| [1](#sec-section1)   | T       | 08/26    | Overview of Class; Overview of Fantasy Football                              | Ch [1](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/intro.html)–[2](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/fantasy-football.html) | [Codecademy Module 1](https://www.codecademy.com/learn/learn-r) |
+| [2](#sec-section2)   | Th      | 08/28    | Statistical Programming: Using `R` for Statistical Analysis                  | Ch [3](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/getting-started.html) | [Codecademy Modules 2–3](https://www.codecademy.com/learn/learn-r) |
+| [3](#sec-section3)   | T       | 09/02    | Player Evaluation                                                            | Ch [6](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/player-evaluation.html); Den Hartigh et al. (2018) | **Set up blog; post welcome article** |
+| [4](#sec-section4)   | Th      | 09/04    | The Draft                                                                    | Ch [7](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/draft.html); Lee & Liu (2022) | [Codecademy Modules 5–6](https://www.codecademy.com/learn/learn-r) |
+| [5](#sec-section5)   | T       | 09/09    | Statistical Programming in `R`                                               | Ch [4](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/download-football-data.html) | [Codecademy Modules 7–10](https://www.codecademy.com/learn/learn-r) |
+| [6](#sec-section6)   | Th      | 09/11    | Basic Statistics                                                             | Ch [8](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/research-methods.html)–[9](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/basic-statistics.html) | **Blog article 1 due!**               |
+| [7](#sec-section7)   | T       | 09/16    | Data Visualization and Interpretation                                        | Ch [5](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/data-visualization.html); Schwabish (2021) | [Codecademy Module 4](https://www.codecademy.com/learn/learn-r) |
+| [8](#sec-section8)   | Th      | 09/18    | Correlation Analysis                                                         | Ch [10](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/correlation.html); Goodwin & Leech (2006) | **Blog article 2 due!**               |
+| [9](#sec-section9)   | T       | 09/23    | Multiple Regression                                                          | Ch [11](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/multiple-regression.html); Osborne & Waters (2002) |                                       |
+| [10](#sec-section10) | Th      | 09/25    | Mixed Models                                                                 | Ch [12](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/mixed-models.html); Brauer & Curtin (2018) |                                       |
+| [11](#sec-section11) | T       | 09/30    | Causal Inference                                                             | Ch [13](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/causal-inference.html); D'Onofrio et al. (2020) | **Blog article 3 due!**               |
+| [12](#sec-section12) | Th      | 10/02    | Heuristics and Cognitive Biases in Prediction                                | Ch [14](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/cognitive-bias.html); Tversky & Kahneman (1974) |                                       |
+| [13](#sec-section13) | T       | 10/07    | Human Judgment vs Actuarial Approaches to Prediction                         | Ch [15](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/actuarial.html); Kahneman (2011), Ch 21 & 22  |                                       |
+| [14](#sec-section14) | Th      | 10/09    | Base Rates                                                                   | Ch [16](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/base-rates.html); Kahneman (2011), Ch 14 & 30  | **Blog article 4 due!**               |
+| [15](#sec-section15) | T       | 10/14    | **Midterm Exam**                                                             |                                     |                                       |
+| [16](#sec-section16) | Th      | 10/16    | Evaluation of Prediction/Forecasting Accuracy: Binary Classification         | Ch 17 (Section [17.1](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/evaluating-prediction-accuracy.html)–17.6.6)        |                                       |
+| [17](#sec-section17) | T       | 10/21    | Evaluation of Prediction/Forecasting Accuracy: Binary Classification         | Ch 17 (Section [17.6.7](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/evaluating-prediction-accuracy.html#sec-sensitivitySpecificityPPVnpv)–17.6.11)       |                                       |
+| [18](#sec-section18) | Th      | 10/23    | Evaluation of Prediction/Forecasting Accuracy: Continuous Outcomes           | Ch 17 (Section [17.7](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/evaluating-prediction-accuracy.html#sec-thresholdIndependentAccuracy)–end of chapter) | **Blog article 5 due!**               |
+| [19](#sec-section19) | T       | 10/28    | Calibration Accuracy: Overconfidence Bias                                    | Kahneman & Tversky (1996); Massey & Thaler (2013) |                         |
+| [20](#sec-section20) | Th      | 10/30    | Machine Learning                                                             | Ch [19](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/machine-learning.html); Ramasubramanian & Singh (2019), Ch 6 | **Blog article 6 due!**       |
+| [21](#sec-section21) | T       | 11/04    | Mythbusters: Putting Fantasy Football Beliefs/Anecdotes to the Test          | Ch [18](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/mythbusters.html); White & Sheldon (2014)       |                                       |
+| [22](#sec-section22) | Th      | 11/06    | Modern Portfolio Theory                                                      | Ch [20](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/modern-portfolio-theory.html); Chen (2016) | **Blog article 7 due!**               |
+| [23](#sec-section23) | T       | 11/11    | Cluster Analysis                                                             | Ch [21](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/cluster-analysis.html); Everitt et al. (2011), Ch 1 |                                       |
+| [24](#sec-section24) | Th      | 11/13    | Factor Analysis                                                              | Ch [22](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/factor-analysis.html); Field et al. (2012), Ch 17 (through Section 17.7) | **Blog article 8 due!**               |
+| [25](#sec-section25) | T       | 11/18    | Data Reduction: Principal Component Analysis                                 | Ch [23](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/pca.html) |                                       |
+| [26](#sec-section26) | Th      | 11/20    | Simulation: Bootstrapping and the Monte Carlo Method                         | Ch [24](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/simulation.html); Sigal & Chalmers (2016) | **Blog article 9 due!**               |
+|                  |         | 11/24–11/27 | **FALL BREAK – NO CLASSES**                                               |                                     |                                       |
+| [27](#sec-section27) | T       | 12/02    | Time Series Analysis                                                         | Ch [25](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/time-series-analysis.html); [Hyndman & Athanasopoulos (2021), Ch 1](https://otexts.com/fpp3/intro.html) (through Section 1.7) |        |
+| [28](#sec-section28) | Th      | 12/04    | Decision Making in the Context of Uncertainty                                | Ch [26](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/decision-making.html); Larrick et al. (2024) | **Blog article 10 due!**              |
+| [29](#sec-section29) | T       | 12/09    | Sports and Cognitive Psychology: Coaching and Risk Aversion                  | Ch 27 (Section [27.1](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/sports-cognitive-psychology.html)–27.5); Moskowitz & Werthheim (2012), Ch 3 & 16 |                             |
+| [30](#sec-section30) | Th      | 12/11    | Sports and Cognitive Psychology: Psychological Factors in Player Performance; Expert Performance and Automaticity | Ch 27 (Section [27.6](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook/sports-cognitive-psychology.html#sec-psychologicalFactorsPerformance)–end of chapter); Moskowitz & Werthheim (2012), Ch 17 | **Blog article 11 due!**       |
+| Finals Week      |         | TBD (week of 12/15) | **Final Exam**                                                    |                                     |                                       |
+
+# Date and Time of the Final Exam {#sec-finalExam}
+
+The [final examination date and time](https://registrar.uiowa.edu/final-exam-schedules) will be announced by the Registrar generally by the fifth week of classes, and it will be announced on the course ICON site once it is known.
+<u>Do not plan your end of the semester travel plans until the final exam schedule is made public.
+It is your responsibility to know the date, time, and place of the final exam.</u>
+According to the Registrar's final exam policy, students <u>have a maximum of two weeks after the announced final exam schedule</u> to request a change if an exam conflict exists or if a student has more than two exams scheduled for the same day (see the [policy](https://registrar.uiowa.edu/makeup-final-examination-policies) here).
+
+# Course Resources {#sec-courseResources}
+
+There are many course resources available to help you succeed in the class, including:
+
+- Powerpoint slides for lecture
+- getting and reviewing missed notes from a peer
+- [lecture recordings](#sec-recordings)
+- the [course textbook](https://isaactpetersen.github.io/Fantasy-Football-Analytics-Textbook) and assigned readings
+- review your reading quizzes and the answers
+- instructor office hours
+- peer study groups
+- Tutor Iowa: <https://tutor.uiowa.edu>
+
+# Drop Deadline for this Course {#sec-dropDeadline}
+
+You may drop an individual course before the drop deadline; after this deadline you will need collegiate approval.
+You can look up the drop deadline for this course [here](https://registrar.uiowa.edu/course-deadlines).
+When you drop a course, a "W" will appear on your transcript.
+The mark of "W" is a neutral mark that does not affect your GPA.
+To discuss how dropping (or staying in) a course might affect your academic goals, please contact your Academic Advisor.
+Directions for adding or dropping a course and other registration changes can be found on the [Registrar's website](https://registrar.uiowa.edu/change-registration-myui).
+Students can find policies on dropping CLAS courses [here](https://clas.uiowa.edu/students/students-academic-policies/registration-policies#dropping).
+Students should adhere to the [academic deadlines](https://grad.uiowa.edu/academics/deadlines) and policies set by the Graduate College.
+
+# Feedback about the Course {#sec-feedback}
+
+I welcome feedback at any point during the class.
+If you have comments on the class or my teaching, please feel free to meet with me during office hours.
+
+## Student Complaints {#sec-complaints}
+
+Students with a complaint about a grade or a related matter should first discuss the situation with the instructor, and finally with the DEO (Chair) of the department, school, or program offering the course.
+Sometimes students will be referred to the department or program's Director of Undergraduate Studies (DUS) or Director of Graduate Studies (DGS).
+Students should contact [CLAS Undergraduate Programs](https://clas.uiowa.edu/students/handbook/student-rights-responsibilities#rights) for support when the matter is not resolved at the previous level.
+
+# Communication: UI Email {#sec-email}
+
+Students are responsible for all official correspondences sent to their UI email address (uiowa.edu) and must use this address for any communication with instructors or staff in the UI community.
+For the privacy and the protection of student records, UI faculty and staff can only correspond with UI email addresses.
+
+## Other Expectations of Student Performance {#sec-otherExpectations}
+
+Students have the right to a distraction-free learning environment.
+You have the responsibility to help create such a classroom environment.
+Please treat other students in the class and the instructor with respect.
+Students are expected to help each other learn and to contribute overall to the learning environment of the course.
+Arriving prepared for class is part of this expectation.
+
+# University Policies {#sec-UIowaPolicies}
+
+[University Policies](https://provost.uiowa.edu/student-course-policies)
+
+[Accommodations for Students with Disabilities](https://provost.uiowa.edu/student-course-policies)\
+The University is committed to providing an educational experience that is accessible to all students.
+If a student has a diagnosed disability or other disabling condition that may impact the student's ability to complete the course requirements as stated in the syllabus, the student may seek accommodations through [Student Disability Services](https://sds.studentlife.uiowa.edu/students) (SDS).
+SDS is responsible for making [Letters of Accommodation (LOA)](https://sds.studentlife.uiowa.edu/students/letter-accommodations-loa) available to the student.
+<u>The student must provide a LOA to the instructor as early in the semester as possible, but requests not made at least two weeks prior to the scheduled activity for which an accommodation is sought may not be accommodated.</u>
+The LOA will specify what reasonable course accommodations the student is eligible for and those the instructor should provide.
+Additional information can be found on the [SDS website](https://sds.studentlife.uiowa.edu/students/apply).
+
+[Class Recordings](https://provost.uiowa.edu/student-course-policies)\
+Students may be enrolled in a class where some sessions will be recorded or live-streamed.
+Such recordings/streaming will only be available to students registered for the class.
+These recordings are the intellectual property of the instructor and they may not be shared or reproduced without the explicit, written consent of the instructor.
+Further, students may not share these sessions with those not in the class or upload them to any other online environment.
+Doing so would be a breach of the Code of Student Conduct, and, in some cases, a violation of state and federal law, including the Federal Education Rights and Privacy Act (FERPA).
+
+The unauthorized video or audio recording of academic activities (e.g., lectures, course discussions, office hours, etc.) by a student is prohibited.
+Students with a reasonable accommodation for recording approved by Student Disability Services should notify each instructor and provide the Letter of Accommodation prior to using the accommodation.
+A student may record classroom activities with prior written permission from the instructor and notice to other students in the class that audio or video recording may occur.
+Any and all classroom recording must be for personal academic use only.
+The distribution, sharing, sale, or posting of recordings on the internet (including social media), in whole or in part, is prohibited and doing so may be a violation of the Code of Student Life and/or state or federal privacy, copyright, or other laws.
+
+- [Free Speech and Expression](https://provost.uiowa.edu/student-course-policies)
+- [Non-Discrimination](https://provost.uiowa.edu/student-course-policies)
+- [Accommodations for Students with Disabilities](https://provost.uiowa.edu/student-course-policies)
+- [Absences from Class](https://provost.uiowa.edu/student-course-policies)
+- [Absences for Religious Holy Days](https://provost.uiowa.edu/student-course-policies)
+- [Absences for Military Service Obligations](https://provost.uiowa.edu/student-course-policies)
+- [Classroom Expectations](https://provost.uiowa.edu/student-course-policies)
+- [Sexual Harassment/Misconduct and Supportive Measures](https://provost.uiowa.edu/student-course-policies)
+- [Conflict Resolution](https://provost.uiowa.edu/student-course-policies)
+- [Mental Health](https://provost.uiowa.edu/student-course-policies)
+- [Basic Needs and Student Support](https://provost.uiowa.edu/student-course-policies)
+- [Class Recordings](https://provost.uiowa.edu/student-course-policies)
+
+# Where to Get Academic Support for This Course {#sec-academic-support}
+
+- Drop-in study groups and one-on-one tutoring: student drop-in hours of the instructor
+- Formal tutoring: Tutor Iowa: <https://tutor.uiowa.edu>
+- UI Writing Center: <https://writingcenter.uiowa.edu>
+- Academic accommodations: <https://sds.studentlife.uiowa.edu>
+
+# Mental Health Resources and Student Support {#sec-mental-health}
+
+Students are encouraged to be mindful of their mental health and seek help as a preventive measure or if feeling overwhelmed and/or struggling to meet course expectations.
+Students are encouraged to talk to their instructor for assistance with specific class-related concerns.
+For additional support and counseling, students are encouraged to contact University Counseling Service (UCS).
+Information about UCS, including resources and how to schedule an appointment, can be found at [counseling.uiowa.edu](http://counseling.uiowa.edu).
+Find out more about UI mental health services at: [mentalhealth.uiowa.edu](http://mentalhealth.uiowa.edu), including the 24-7 [UI Support and Crisis Line](https://mentalhealth.uiowa.edu/ui-support-and-crisis-line).
+
+Additionally, the Office of the Dean of Students can help students navigate personal crisis situations.
+They can provide one-on-one support, help with identifying options, and access to [basic needs resources (such as food, rent, childcare, etc.)](http://basicneeds.uiowa.edu).
+Student Care and Assistance: 132 IMU, [dos-assistance@uiowa.edu](mailto:dos-assistance@uiowa.edu), or 319-335-1162 and more info: [dos.uiowa.edu/assistance](https://dos.uiowa.edu/assistance)
+
+If you feel that you or someone you know may be struggling with an academic, emotional, or psychological problem, the following organizations are available for assistance:
+
+| Service                                                                    | Contact Info                                                       |
+|:---------------------------------------------------------------------------|:-------------------------------------------------------------------|
+| University of Iowa Academic Advising Center                                | 353-5700, <https://advisingcenter.uiowa.edu>                       |
+| University Counseling Services                                             | 335-7294, <https://www.uiowa.edu/ucs>                              |
+| Student Health Service - Mental Health                                     | 335-8394, <https://studenthealth.uiowa.edu/services/psychiatry>    |
+| University of Iowa Hospitals and Clinics Adult Psychiatry Services Clinic  | 353-6314, <https://www.uihealthcare.org/Psychiatry>                |
+| Seashore Clinic (in the UI Department of Psychological and Brain Sciences) | 335-2467, <https://psychology.uiowa.edu/resources/seashore-clinic> |
+| Women's Resource and Action Center                                         | 335-1486, <https://wrac.uiowa.edu>                                 |
+| Rape Victim Advocacy Program                                               | 319-335-6000 or 800-228-1625, <https://www.uiowa.edu/~rvap>        |
+| Office of Sexual Misconduct                                                | 319-335-6200, <https://osmrc.uiowa.edu>                            |
+| CommUnity                                                                  | 855-325-4296, <https://builtbycommunity.org/crisis>                |
+| Community & Family Resources                                               | 351-4357, <https://www.cfrhelps.org>                               |
+
+<u>If you or someone you know is contemplating suicide</u>, either call or text the Suicide and Crisis Lifeline at 988, or call 911.
+
+# Disclosures {#sec-disclosures}
+
+I am the Owner of Fantasy Football Analytics, LLC, which operates <https://fantasyfootballanalytics.net>.
+I do not require or encourage students to use my website, and I do not promote or endorse any specific content or services offered by Fantasy Football Analytics.
+
+# Disclaimer {#sec-disclaimer}
+
+"*This material probably won't win you fantasy football championships.
+You could take what we learn and apply it to fantasy football and you might become 5 percent more likely to win.
+Or...
+Consider the broader relevance of this.
+You could learn data analysis and figure out ways to apply it to other systems.
+And you could be making a six-figure salary within the next five years.*"
+– Benjamin Motz, Ph.D.
+
+This syllabus is subject to change.
+Any changes will be discussed in class, via email, and/or on ICON.
