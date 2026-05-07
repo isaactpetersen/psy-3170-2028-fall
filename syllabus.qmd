@@ -19,9 +19,9 @@ Tuesday and Thursday 11:00 a.m. – 12:15 p.m., 65 Van Allen (VAN)
 
 # Course Website {#sec-website}
 
-<https://icon.uiowa.edu>
+<https://uiowa.instructure.com>
 
-To access the course site, log into [Iowa Courses Online (ICON)](https://icon.uiowa.edu) using your Hawk ID and password.
+To access the course site, log into [Canvas](https://uiowa.instructure.com) using your Hawk ID and password.
 
 # Course Home {#sec-home}
 
@@ -283,7 +283,7 @@ Make sure the link works before submitting.
 ## Lecture {#sec-lecture}
 
 We will meet two times weekly for lectures, at the time and location described [above](#sec-lectureTime).
-My powerpoint presentations for the lectures will be posted on [ICON](https://icon.uiowa.edu) no later than 20 minutes before the lecture; they are made available after the quizzes are due so you use the readings rather than the slides to complete the quiz.
+My powerpoint presentations for the lectures will be posted on [Canvas](https://uiowa.instructure.com) no later than 20 minutes before the lecture; they are made available after the quizzes are due so you use the readings rather than the slides to complete the quiz.
 <u>Please note:</u> powerpoint presentations are an outline of my points. 
 <u>It is your responsibility to take notes during class.</u>
 If you have questions about the lecture notes or need clarification of any of the points, please ask in class or meet with Professor Petersen during office hours.
@@ -293,7 +293,7 @@ Then, come to office hours if you have specific questions.
 ### Lecture Recordings {#sec-recordings}
 
 My intention is to record lectures so that you may review them.
-Recorded lectures will be posted on the "UICapture" tab in [ICON](https://icon.uiowa.edu).
+Recorded lectures will be posted on the "UICapture" tab in [Canvas](https://uiowa.instructure.com).
 However, <u>please do not count on recordings being available</u>, in case I accidentally forget to initiate the recording or there is a technical malfunction.
 
 ## Attendance and Participation {#sec-attendanceParticipation}
@@ -317,8 +317,8 @@ As part of the class, you will post blog articles (see the [course schedule](#se
 The blog articles are intended to give you practice integrating skills to advance the [learning objectives](#sec-objectives) of a) thinking critically and empirically about human behavior and performance, b) making sense of big data, c) using, evaluating, and interpreting statistical analyses, and d) communicating data-driven insights.
 There will be a penalty of 20% for all blog articles turned in late.
 Your two lowest scores will be dropped (excluding the last blog article, which involves in the integration of at least two analysis approaches that were covered in class).
-A blog article is not considered "submitted" until you (a) post the blog article so that it is live and publicly available, AND (b) submit the assignment on [ICON](https://icon.uiowa.edu) with a PDF of the article and a URL link to your blog article.
-All blog articles should be submitted to [ICON](https://icon.uiowa.edu) by 11:59 p.m. on the due date.
+A blog article is not considered "submitted" until you (a) post the blog article so that it is live and publicly available, AND (b) submit the assignment on [Canvas](https://uiowa.instructure.com) with a PDF of the article and a URL link to your blog article.
+All blog articles should be submitted to [Canvas](https://uiowa.instructure.com) by 11:59 p.m. on the due date.
 Make sure to follow the rubric for the blog article and to incorporate information on the target topic for that week's blog article.
 
 You are encouraged to submit your blog article <u>well before</u> the deadline.
@@ -356,9 +356,9 @@ I do not often respond to emails during evenings or weekends, and I cannot be ex
 
 ## Readings & Quizzes {#sec-readingQuizzes}
 
-Readings and other materials (e.g., videos) will be posted on [ICON](https://icon.uiowa.edu).
+Readings and other materials (e.g., videos) will be posted on [Canvas](https://uiowa.instructure.com).
 You are expected to do the readings (and watch any required videos and complete any required learning activities) before class.
-You will have an online quiz on the readings/materials to complete in [ICON](https://icon.uiowa.edu), on your own, <u>before</u> each lecture.
+You will have an online quiz on the readings/materials to complete in [Canvas](https://uiowa.instructure.com), on your own, <u>before</u> each lecture.
 The quizzes will cover the required readings, videos, and learning activities.
 The quizzes are meant to help you come to class prepared to contribute so you are best-positioned to learn and to help others learn.
 The quizzes are not timed (you can spend as much time as you need on each quiz up until the deadline).
@@ -399,7 +399,7 @@ See below for the documentation necessary for an absence to be excused and to be
 Students are allowed to make up exams that have been missed due to illness, mandatory religious observations, official University activities, or other unavoidable circumstances.
 Note: the format of the make-up exam may differ from the original exam.
 If you know that you must be away at the time of an exam for one of these reasons, Professor Petersen must be contacted in advance whenever possible to schedule a make-up exam.
-In order to take a make-up exam, you must provide acceptable documentation to be eligible to take it: including documentation for any report of illness; any other circumstances must be documented by the University of Iowa [Absence Explanation Form](https://clas.uiowa.edu/sites/clas.uiowa.edu/files/2024-05/ABSENCE%20EXPLANATION%20FORM.pdf) (located in ICON under "Student Tools") and must be approved by Professor Petersen.
+In order to take a make-up exam, you must provide acceptable documentation to be eligible to take it: including documentation for any report of illness; any other circumstances must be documented by the University of Iowa [Absence Explanation Form](https://clas.uiowa.edu/sites/clas.uiowa.edu/files/2024-05/ABSENCE%20EXPLANATION%20FORM.pdf) (located in [Canvas](https://uiowa.instructure.com) under "Student Tools") and must be approved by Professor Petersen.
 <u>In sum, to be eligible for a make-up exam, Professor Petersen must be contacted before the examination whenever possible, and you must send acceptable form of documentation to Professor Petersen</u>.
 
 ## Class Fantasy Football League {#sec-fantasyFootballLeague}
@@ -515,7 +515,7 @@ The video should include:
 - Why (from your perspective) it is valuable to learn statistics
 - What advice you would give to students who take the class in the future
 
-Submit the video in the designated assignment on [ICON](https://icon.uiowa.edu).
+Submit the video in the designated assignment on [Canvas](https://uiowa.instructure.com).
 
 ### Win the Class Fantasy Football League {#sec-extraCreditWinLeague}
 
@@ -565,7 +565,7 @@ We will have one exam during the semester and one final exam during finals week.
 
 # Date and Time of the Final Exam {#sec-finalExam}
 
-The [final examination date and time](https://registrar.uiowa.edu/final-exam-schedules) will be announced by the Registrar generally by the fifth week of classes, and it will be announced on the course ICON site once it is known.
+The [final examination date and time](https://registrar.uiowa.edu/final-exam-schedules) will be announced by the Registrar generally by the fifth week of classes, and it will be announced on the course [Canvas](https://uiowa.instructure.com) site once it is known.
 <u>Do not plan your end of the semester travel plans until the final exam schedule is made public.
 It is your responsibility to know the date, time, and place of the final exam.</u>
 According to the Registrar's final exam policy, students <u>have a maximum of two weeks after the announced final exam schedule</u> to request a change if an exam conflict exists or if a student has more than two exams scheduled for the same day (see the [policy](https://registrar.uiowa.edu/makeup-final-examination-policies) here).
@@ -708,4 +708,4 @@ And you could be making a six-figure salary within the next five years.*"
 – Benjamin Motz, Ph.D.
 
 This syllabus is subject to change.
-Any changes will be discussed in class, via email, and/or on ICON.
+Any changes will be discussed in class, via email, and/or on [Canvas](https://uiowa.instructure.com).
