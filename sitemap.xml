@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/index.html</loc>
-    <lastmod>2026-08-05T12:29:23.023Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/devpsylab.html</loc>
-    <lastmod>2026-08-05T12:29:23.010Z</lastmod>
-  </url>
-  <url>
     <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/about.html</loc>
-    <lastmod>2026-08-05T12:29:23.010Z</lastmod>
+    <lastmod>2026-11-17T21:05:51.640Z</lastmod>
   </url>
   <url>
-    <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/help.html</loc>
-    <lastmod>2026-08-05T12:29:23.021Z</lastmod>
+    <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/index.html</loc>
+    <lastmod>2026-11-17T21:05:51.648Z</lastmod>
   </url>
   <url>
     <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/syllabus.html</loc>
-    <lastmod>2026-08-05T12:29:23.024Z</lastmod>
+    <lastmod>2026-11-17T21:05:51.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/devpsylab.html</loc>
+    <lastmod>2026-11-17T21:05:51.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isaactpetersen.github.io/psy-3170-2028-fall/help.html</loc>
+    <lastmod>2026-11-17T21:05:51.647Z</lastmod>
   </url>
 </urlset>
